@@ -1,0 +1,22 @@
+{
+  "name": "B2_aug",
+  "strategy": "feature",
+  "augmentation": true,
+  "total_parameters": 11181642,
+  "trainable_parameters_final": 5130,
+  "trainable_parameters_at_best": 5130,
+  "learning_rates_at_best": "{\"fc\": 0.001}",
+  "best_epoch": 25,
+  "best_stage": "head",
+  "epochs_run": 29,
+  "stop_reason": "early_stopping",
+  "best_val_loss": 0.09941780515193864,
+  "best_val_accuracy": 0.9663299663299664,
+  "train_eval_accuracy_at_best": 0.9790462427745664,
+  "accuracy_gap_at_best": 0.01271627644460005,
+  "optimization_seconds": 344.65895080300015,
+  "training_and_validation_seconds": 644.5224898670017,
+  "wall_seconds_including_checkpoint_io": 647.5028999880001,
+  "initial_state_sha256": "ebd2a72c0d4fbbdcf07eb0acdca1e87485dec82b4eae3dec20bec5b25018deb8",
+  "manifest_sha256": "f17c05d6e33de2d3ce14a3d5b651827700fa5252efa11080b426ee56ee21079f"
+}

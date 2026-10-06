@@ -1,0 +1,43 @@
+{
+  "B2_aug": {
+    "checkpoint_sha256": "63b36de9ec4c73bb490cc2c583ddcd861bb5760f23cbcb9c58657a34d04e4c72",
+    "epoch": 25,
+    "classes": [
+      "Abyssinian",
+      "Bengal",
+      "Birman",
+      "Bombay",
+      "British_Shorthair",
+      "american_bulldog",
+      "beagle",
+      "boxer",
+      "chihuahua",
+      "english_cocker_spaniel"
+    ]
+  },
+  "B3_progressive_aug": {
+    "checkpoint_sha256": "6009e45a10dd39e1dea1fa5b656595fbb8e05befb4fae0de9a396dbe0ab48619",
+    "epoch": 8,
+    "classes": [
+      "Abyssinian",
+      "Bengal",
+      "Birman",
+      "Bombay",
+      "British_Shorthair",
+      "american_bulldog",
+      "beagle",
+      "boxer",
+      "chihuahua",
+      "english_cocker_spaniel"
+    ]
+  },
+  "target": "ground-truth class fixed across both models",
+  "layer": "layer4 output, 7x7",
+  "normalization": "per-map min-max after bilinear upsampling; intensity not comparable across maps",
+  "samples": "three supplied test images, selected from B5 errors; not representative",
+  "comparison": "B2 best epoch 25 vs B3 best epoch 8; B2 is not the exact B3 warmup checkpoint",
+  "torch": "2.8.0+cpu",
+  "torchvision": "0.23.0+cpu",
+  "device": "CPU; eval mode; no training",
+  "source": "https://arxiv.org/abs/1610.02391"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "B4_B2_noaug",
+  "strategy": "feature",
+  "augmentation": false,
+  "total_parameters": 11181642,
+  "trainable_parameters_final": 5130,
+  "trainable_parameters_at_best": 5130,
+  "learning_rates_at_best": "{\"fc\": 0.001}",
+  "best_epoch": 14,
+  "best_stage": "head",
+  "epochs_run": 18,
+  "stop_reason": "early_stopping",
+  "best_val_loss": 0.11756141765689107,
+  "best_val_accuracy": 0.9629629629629629,
+  "train_eval_accuracy_at_best": 0.9891618497109826,
+  "accuracy_gap_at_best": 0.026198886748019734,
+  "optimization_seconds": 147.08999619199858,
+  "training_and_validation_seconds": 334.29055607799864,
+  "wall_seconds_including_checkpoint_io": 336.4229106910002,
+  "initial_state_sha256": "ebd2a72c0d4fbbdcf07eb0acdca1e87485dec82b4eae3dec20bec5b25018deb8",
+  "manifest_sha256": "f17c05d6e33de2d3ce14a3d5b651827700fa5252efa11080b426ee56ee21079f"
+}

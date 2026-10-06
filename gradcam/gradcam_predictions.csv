@@ -1,0 +1,7 @@
+image_id,target_class,model,prediction,confidence,target_probability
+Abyssinian_158,Abyssinian,B2_aug,Bengal,0.8836410641670227,0.10210807621479034
+Abyssinian_158,Abyssinian,B3_progressive_aug,Bengal,0.899357259273529,0.09457184374332428
+american_bulldog_100,american_bulldog,B2_aug,boxer,0.9985285997390747,0.0008141447906382382
+american_bulldog_100,american_bulldog,B3_progressive_aug,boxer,0.9861025810241699,0.0073452722281217575
+boxer_182,boxer,B2_aug,american_bulldog,0.9966064691543579,0.0027798886876553297
+boxer_182,boxer,B3_progressive_aug,american_bulldog,0.9989042282104492,0.0008051777840591967

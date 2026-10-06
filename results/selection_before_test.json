@@ -1,0 +1,12 @@
+{
+  "selected_by": "minimum best validation loss",
+  "selected_name": "B5_efficientnet_b0_aug_retry1",
+  "test_used_for_selection": false,
+  "candidates": [
+    "B1_scratch_aug",
+    "B2_aug",
+    "B3_progressive_aug",
+    "B4_B2_noaug",
+    "B5_efficientnet_b0_aug_retry1"
+  ]
+}

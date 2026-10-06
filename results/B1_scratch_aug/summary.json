@@ -1,0 +1,22 @@
+{
+  "name": "B1_scratch_aug",
+  "strategy": "scratch",
+  "augmentation": true,
+  "total_parameters": 11181642,
+  "trainable_parameters_final": 11181642,
+  "trainable_parameters_at_best": 11181642,
+  "learning_rates_at_best": "{\"all\": 0.001}",
+  "best_epoch": 6,
+  "best_stage": "all",
+  "epochs_run": 10,
+  "stop_reason": "early_stopping",
+  "best_val_loss": 1.764477328419284,
+  "best_val_accuracy": 0.3939393939393939,
+  "train_eval_accuracy_at_best": 0.4277456647398844,
+  "accuracy_gap_at_best": 0.03380627080049048,
+  "optimization_seconds": 133.69170016099974,
+  "training_and_validation_seconds": 237.59137753299956,
+  "wall_seconds_including_checkpoint_io": 238.3974655500001,
+  "initial_state_sha256": "5b7e1c53fbef0ebdc874bec5695978d3518b9867c3f0bfc86c935040ecd61b64",
+  "manifest_sha256": "f17c05d6e33de2d3ce14a3d5b651827700fa5252efa11080b426ee56ee21079f"
+}

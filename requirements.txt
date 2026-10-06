@@ -1,0 +1,10 @@
+# Colab: retain the preinstalled compatible torch/torchvision pair.
+# For exact training versions, see requirements_actual.txt in the submitted run archive.
+torch
+torchvision
+numpy
+pandas
+matplotlib
+Pillow
+ipython
+notebook

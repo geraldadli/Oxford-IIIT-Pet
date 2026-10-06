@@ -1,0 +1,22 @@
+{
+  "name": "B3_progressive_aug",
+  "strategy": "progressive",
+  "augmentation": true,
+  "total_parameters": 11181642,
+  "trainable_parameters_final": 8398858,
+  "trainable_parameters_at_best": 8398858,
+  "learning_rates_at_best": "{\"fc\": 0.001, \"layer4\": 0.0001}",
+  "best_epoch": 8,
+  "best_stage": "layer4",
+  "epochs_run": 12,
+  "stop_reason": "early_stopping",
+  "best_val_loss": 0.09676256708358649,
+  "best_val_accuracy": 0.9595959595959596,
+  "train_eval_accuracy_at_best": 0.994942196531792,
+  "accuracy_gap_at_best": 0.03534623693583239,
+  "optimization_seconds": 150.33481886900017,
+  "training_and_validation_seconds": 276.6408896520006,
+  "wall_seconds_including_checkpoint_io": 278.02343896400043,
+  "initial_state_sha256": "ebd2a72c0d4fbbdcf07eb0acdca1e87485dec82b4eae3dec20bec5b25018deb8",
+  "manifest_sha256": "f17c05d6e33de2d3ce14a3d5b651827700fa5252efa11080b426ee56ee21079f"
+}

@@ -1,0 +1,40 @@
+{
+  "seed": 42,
+  "batch_size": 32,
+  "max_epochs": 30,
+  "patience": 4,
+  "warmup_epochs_b3": 2,
+  "head_lr": 0.001,
+  "backbone_lr": 0.0001,
+  "weight_decay": 0.01,
+  "classes": [
+    "Abyssinian",
+    "Bengal",
+    "Birman",
+    "Bombay",
+    "British_Shorthair",
+    "american_bulldog",
+    "beagle",
+    "boxer",
+    "chihuahua",
+    "english_cocker_spaniel"
+  ],
+  "split_ratio": [
+    0.7,
+    0.15,
+    0.15
+  ],
+  "optimizer": "AdamW",
+  "loss": "CrossEntropyLoss",
+  "precision": "float32",
+  "pretrained_weights": "ResNet18_Weights.IMAGENET1K_V1",
+  "augmentation": "Compose(\n    Resize(size=256, interpolation=bilinear, max_size=None, antialias=True)\n    RandomResizedCrop(size=(224, 224), scale=(0.8, 1.0), ratio=(0.75, 1.3333), interpolation=bilinear, antialias=True)\n    RandomHorizontalFlip(p=0.5)\n    RandomRotation(degrees=[-15.0, 15.0], interpolation=nearest, expand=False, fill=0)\n    ColorJitter(brightness=(0.8, 1.2), contrast=(0.8, 1.2), saturation=None, hue=None)\n    ToTensor()\n    Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])\n)",
+  "evaluation": "ImageClassification(\n    crop_size=[224]\n    resize_size=[256]\n    mean=[0.485, 0.456, 0.406]\n    std=[0.229, 0.224, 0.225]\n    interpolation=InterpolationMode.BILINEAR\n)",
+  "frozen_batchnorm": "eval mode",
+  "num_workers": 2,
+  "best_checkpoint": "minimum validation loss",
+  "b4_pair": [
+    "B2_aug",
+    "B4_B2_noaug"
+  ]
+}

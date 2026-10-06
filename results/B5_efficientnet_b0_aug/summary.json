@@ -1,0 +1,23 @@
+{
+  "name": "B5_efficientnet_b0_aug_retry1",
+  "strategy": "efficientnet_b0_progressive",
+  "augmentation": true,
+  "total_parameters": 4020358,
+  "trainable_parameters_final": 1142202,
+  "trainable_parameters_at_best": 1142202,
+  "learning_rates_at_best": "{\"fc\": 0.001, \"layer4\": 0.0001}",
+  "best_epoch": 8,
+  "best_stage": "layer4",
+  "epochs_run": 12,
+  "stop_reason": "early_stopping",
+  "best_val_loss": 0.09025747832600717,
+  "best_val_accuracy": 0.9730639730639731,
+  "train_eval_accuracy_at_best": 0.9971098265895953,
+  "accuracy_gap_at_best": 0.024045853525622274,
+  "optimization_seconds": 139.76681633800035,
+  "training_and_validation_seconds": 265.8024288959996,
+  "wall_seconds_including_checkpoint_io": 266.8021058479999,
+  "initial_state_sha256": "6ab6abd7012a537496b6fc512c2ad10e338b5231ce75c3972deea10a0ab466e2",
+  "manifest_sha256": "f17c05d6e33de2d3ce14a3d5b651827700fa5252efa11080b426ee56ee21079f",
+  "architecture": "efficientnet_b0"
+}
